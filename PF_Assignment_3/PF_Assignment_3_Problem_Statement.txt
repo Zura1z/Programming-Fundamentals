@@ -1,0 +1,76 @@
+Rock, Paper, Scissors is a two-player game played as a means to
+help make a choice or put an end to a disagreement. The idea is that both players have an
+equal chance of winning, making the game random but fair. The game of Rock, Paper, Scissors
+is played like this: at the same time, two players display one of three symbols: a rock, paper,
+or scissors. A rock beats scissors breaking it, scissors beat paper by cutting it, and paper beats
+rock by covering it.
+In this assignment you will write a program to allow a human to play a game of Rock, Paper,
+Scissors versus the computer. The sample programs (rps1.txt, rps2.txt, and rps3.txt) show 3
+runs from my solution to this problem using the default computer player. You must use the
+given program template so the choices are unpredictable. This is necessary so that we can grade
+your program.
+Given the same human name and computer choices, your program must match this output
+exactly. Even minor differences in characters will cause you to fail grading tests and lose points.
+The program:
+• Describes the game to the user (done for you!)
+• Asks the user for their name (done for you!)
+• Plays three rounds of the game
+• In each round of the game
+    – Asks the user for their choice
+    – Have the computer make a random choice
+    – Prints out each player’s choice
+    – Prints the results of the round
+• After playing the three rounds, displays the number or rounds the user won, the number
+of rounds the computer won, and the number of rounds that were a draw
+• Declares who the better player was based on the number of wins
+
+
+
+
+This is not an easy program, mostly due to the size of the program. The individual steps are
+not too difficult, but their are many steps. The program description above gives you a rough
+idea of how to break the program up into parts.
+Have a high level structure and then implement parts of that structure (the individual functions)
+one at a time, testing to make sure they work before going on. You may have to write some
+testing code that will not be part of the final program. Do not write the whole program in main
+and then try and break it up into functions.
+Here are some tips on the various parts of the program.
+1. The main() function.
+The main function initializes a random selection for the computer. Do not change this
+code. Feel free to share examples of your output on Piazza.
+In the main program calls scanf() to ask the user for his/her name. You may pass name
+as a parameter to your functions where you need it. The main function should not have
+a lot of statements, instead it shall call other functions.
+
+2. Playing the rounds of the game given our current programming tools this will be the
+largest and most complex function. It is in turn broken down into several parts. You will
+need some local variables in this function.
+
+3. Ask the user what their choice is. The user will enter an integer as their choice. If the
+user enters an invlid input the program should print Invalid choice. You lose. and
+count it as win for the Computer.
+
+4. Have the computer make a random choice. To do this call the getComputerChoice()
+function written in rps.h which is included in rps.c. You do not need to modify this file.
+
+5. Print out each player’s choice. You will find it useful to have a function that is passed
+an int parameter and prints the correct string for that int. In this program 1 represents
+”Rock”, 2 represents ”Paper”, and 3 represents ”Scissors”.
+
+6. Print the results of that round. This is the most algorithmically difficult part of the
+assignment because there are nine possible outcomes and using the programming tools we
+have as of now, it is difficult to remove redundancy. However, try to make your program
+as concise as possible.
+
+7. After playing the three rounds, display how many times the user won, how many times the
+computer won, and how many draws occurred. The function that runs the rounds shall
+call a function to display this information.
+8. Finally, declare who the better player was based on the number of wins. This can be
+part of the results function but will require some conditional execution with conditional
+statements.
+
+Style issues. We will grade program hygiene as well as correctness. Did you provide a good
+structure to the program using functions? Did you minimize the scope of variables to the
+smallest necessary? Did you use meaningful identifiers? Did you provide consistent tabbing
+and spacing for code inside functions and if statements? Did you provide comments for your
+functions?
