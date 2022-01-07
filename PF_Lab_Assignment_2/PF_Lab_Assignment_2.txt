@@ -1,0 +1,23 @@
+Write a C program to solve a given series:
+1 11 21 1211 1231 131221 132231 ...
+In this series, each number explains its previous number, this series may
+be read as:
+One one times one two times one one times two and one times one
+one time 2 and 3 times one one time 3, 1 time 2 and 2 times 1 ...
+You have to find nth term of that series. For example,
+When n=3, your answer should be 21,
+When n=5, your answer should be 1231,
+When n=7, your answer should be 132231 and so on...
+Hint:
+You have to use double or long datatype to store number. You have to break
+previous number by divide and modules operator and find number occurrences
+to make next number.
+Input: Output:
+Enter term you want to find:
+7
+Enter term you want to find:
+3
+
+7th term is 132231
+
+3rd term is 21
