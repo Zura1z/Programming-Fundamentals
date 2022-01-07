@@ -1,0 +1,38 @@
+ASCII Art is a graphics design technique that uses keyboard characters to create drawings and images. In this assignment you will create a program that produces an ASCII art representation of the FAST Main Building. 
+
+The output will vary based on two inputs that the user will provide; window style and grass style. By simply changing the input characters the output will change (somewhat) dramatically. In the end your program must match the outputs shown for the give characters for window and grass style EXACTLY.
+
+This assignment is meant to give you practice with input and output functions from chapters
+2 and 3 of the textbook, (printf and scanf statements, and program constants). This will
+require you to write printf() and scanf() statements that uses constant and local variables. You
+may not use anything besides the constructs from chapters 2 and 3. You may not use any
+libraries or functions other than printf() and scanf() statements.
+
+You should use methods to structure your solution. Try not to write your complete solution in
+main(). You can pass a parameter into a function using the round brackets after the function
+name. For example, if you have a function called printLastLine, you can pass in the style of
+grass into the function by declaring it as
+
+void printLastLine(char grass) {
+...
+}
+
+where grass can be used inside the function as a variable. The function call in main would look
+like
+printLastLine(gs);
+where gs would be a variable declared in main.
+You are required to properly indent your source code and will lose points if your indenting is
+not readable and consistent. You should localize variables whenever possible.
+Note that the window and grass styles will determine how the drawing is rendered. Also, note
+how the window style is used to determine the shape of the windows in the floors of the main
+building. The inputs to your program will always be two valid ASCII characters.
+
+As a reference my solution consists of approximately 50 lines including blank lines and comments.
+The problem is broken up into 3 - 5 functions including main(). Include a comment for each
+function you write explaining the purpose of that method.
+
+On any given execution your program will produce just one version of the building, but it should
+be possible to change the styles of windows and grass during different runs. Given are two output
+files for inputs U , and @ ^. Your output must match these exactly for a given input or you
+will lose points for correctness. Use a diff tool to ensure your program produces the correct
+output.
