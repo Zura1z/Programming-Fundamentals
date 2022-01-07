@@ -1,0 +1,41 @@
+Pascal’s triangle displays a triangular array of the binomial coefficients.
+
+This is often referred to as n choose r. Given n items how many ways can you chose r things.
+For example, given items a, b and c, how many combinations can we create of the the following
+sizes:
+0: only one way to chose 0 items {}
+1: 3 possible combinations {a} {b} {c}
+2: again 3 ways {a, b} {b, c} {a, c}
+3: only {a, b, c}
+It so happens that row 3 of the Pascal’s triangle is 1 3 3 1. As it turns out, we can use this
+on every level.
+For this assignment you will be printing the Pascal’s triangle using recursion. The objective of
+this assignment is to practice recursion. You are not supposed to use loops while writing this
+program. Submissions with any loop will be marked as zero.
+In this assignment you will write a program to create and print out a given number of rows of
+the Pascal’s Triangle. The sample programs (pascal3.txt, pascal7.txt, and pascal14.txt) show 3
+runs from my solution to this problem for three different values. Note the spaces in the output
+files.
+
+Program output for a seven row triangle is given below:
+Enter the number of rows in Pascal’s Triangle: 7
+
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
+1 6 15 20 15 6 1
+Program output for a four row triangle is given below:
+Enter the number of rows in Pascal’s Triangle: 4
+
+1
+1 1
+1 2 1
+1 3 3 1
+Style issues. We will grade program hygiene as well as correctness. Did you provide a good
+structure to the program using functions? Did you minimize the scope of variables to the
+smallest necessary? Did you use meaningful identifiers? Did you provide consistent tabbing
+and spacing for code inside functions and if statements? Did you provide comments for your
+functions? A program containing any loop will be awarded zero.
