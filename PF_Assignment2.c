@@ -1,4 +1,3 @@
-// Zuraiz Zahoor Ajaz      i19-1793    AI-K    Assignment #2   Due:11-Sep-2019
 //**Please enlarge terminal for a better view of program**
 
 #include <stdio.h>
