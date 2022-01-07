@@ -1,0 +1,24 @@
+Given the paragraph from user in string array, you have to performed some tasks:
+Tokenization
+First you have to tokenize/ split words on the basis of space and store it in an array and
+display the count of words.
+Stop word and punctuation removal:
+Here is the list of some stop words which are to be removed from array and after removing
+you have to show the count of words.
+List= {is, are, am, a, the, and, of, ,(comma), ; , !}
+Count unique words occurrences:
+Now at last, you have to find unique words and display how many times they occur in
+paragraph.
+e.g.
+Poetry is the language of the imagination. Poetry is the universal language.
+After tokenization:
+Poetry is the language of the imagination . Poetry is the universal language
+After stop word and punctuation removal:
+poetry language imagination poetry universal language
+After Counting unique words occurrences:
+poetry language imagination universal
+2 2 1 1
+Poetry occurs 2 times
+Language occurs 2 times
+Imagination occur 1 time
+Universal occur 1 time
