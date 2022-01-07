@@ -2,8 +2,8 @@
 This is a repository of my semester assessments from my 1st semester. The code in all the assignments and tasks is in C. This repository will be very useful for people who starting out with programming.
 
 There two types of files that you will find here:
-1-PF core subject assignments
-2-PF Lab files
+   - PF core subject assignments
+   - PF Lab files
 
 The best way to use this repository
    - Watch a video on Youtube regarding particular subject
